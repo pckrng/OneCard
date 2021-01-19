@@ -34,11 +34,33 @@
   font-size: 30px;
   font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
+  opacity: 0;
 }
 
 .Tilt-inner h1 {
-  opacity: 0.8;
+  
 }
 .Tilt-inner p {
-  font-size: 12px;
+  font-size: 20px;
+  
+}
+
+.nextPage {
+  margin-top: 5vh;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.685);
+  color: white;
+  width: auto;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 16px;
+  padding: 2px;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 3px;
+}
+
+.nextPage:hover {
+  opacity: 0.6;
+  background-color: red;
 }
