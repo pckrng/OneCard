@@ -4,9 +4,9 @@
   justify-content: center;
   height: 100vh;
   text-align: center;
-  box-shadow: 33px 30px 5px -3px rgba(170,168,168,0.75);
--webkit-box-shadow: 33px 30px 5px -3px rgba(170,168,168,0.75);
--moz-box-shadow: 33px 30px 5px -3px rgba(170,168,168,0.75);
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated
 }
 
 .Tilt {
@@ -37,9 +37,6 @@
   opacity: 0;
 }
 
-.Tilt-inner h1 {
-  
-}
 .Tilt-inner p {
   font-size: 20px;
   

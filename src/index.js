@@ -11,7 +11,6 @@ import './index.css'
 function Card() {
     return (
         <>
-        
         <App />
         </>
     )

@@ -5,9 +5,8 @@ import {TweenMax, Power3} from 'gsap'
 
 function CardInner(){
     let introText = useRef(null);
-    
+    let app = useRef (null);
     useEffect(() => {
-        console.log(introText);
         TweenMax.to(
             introText,
             2,
@@ -17,6 +16,7 @@ function CardInner(){
                 ease: Power3.easeOut
             }
         )
+        
     }, [])
 
 
