@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <Tilt className="Tilt" style={{ height: 600, width: 400,  }} onMouseLeave={this.onMouseLeave}>
+          <Tilt className="Tilt" style={{ height: 600, width: 400, boxShadow: "rgba 20, 26, 40, 0.2 0px, 7px, 42px", maxGlare: .5 }} onMouseLeave={this.onMouseLeave}>
             <CardInner />
           </Tilt>
       </div>
