@@ -4,11 +4,10 @@ import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-ro
 
 import {TweenMax, Power3} from 'gsap'
 
-function CardInner(){
+function CardInnerTwo(){
     let introText = useRef(null);
-    
+    let app = useRef (null);
     useEffect(() => {
-        console.log(introText);
         TweenMax.to(
             introText,
             2,
@@ -18,20 +17,20 @@ function CardInner(){
                 ease: Power3.easeOut
             }
         )
+        
     }, [])
 
 
     return(
         
         <div ref={el => {introText = el}}
-        className="Tilt-inner">  
-            <h1>OneCard</h1>
-            <p>A Theme created with react.js and tilt.js </p>
-            <Link to="/OpeningInfo" className="nextPage">CLICK ME!</Link>
+        className="Tilt-inner">
+            <h1>Lorem</h1>  
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat ducimus totam voluptatibus incidunt praesentium dolore velit maiores officia corporis qui.</p>
         </div>
         
     );
 }
 
 
-export default CardInner;
+export default CardInnerTwo;

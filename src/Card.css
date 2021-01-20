@@ -6,7 +6,8 @@
   text-align: center;
   image-rendering: auto;
   image-rendering: crisp-edges;
-  image-rendering: pixelated
+  image-rendering: pixelated;
+  box-shadow: 0px 2.2vw 4vw -1vw rgba(0, 0, 0, 0.986);
 }
 
 .Tilt {
@@ -16,14 +17,14 @@
   justify-content: center;
   width: 200px;
   height: 600px;
-  
   background-image: linear-gradient(
     150deg,
-    #e6e6e0 0%,
-    #cac2c2 50%,
-    #9e989e 100%
+    #9897c2 0%,
+    #8184b6 25%,
+    #8c9eb4 50%,
+    #a2bbc0 75%,
+    #a0f2f2 100%
   );
-  box-shadow: black 2px 2px;
   transform-style: preserve-3d;
   position: relative;
   z-index: 100;
@@ -39,25 +40,24 @@
 
 .Tilt-inner p {
   font-size: 20px;
-  
+  margin-bottom: 2rem;
 }
 
 .nextPage {
-  margin-top: 5vh;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.685);
-  color: white;
+  background-color: #e7e8e95e;
   width: auto;
   text-align: center;
   margin-left: 3rem;
   margin-right: 3rem;
   border-radius: 16px;
-  padding: 2px;
+  padding: 0.5rem;
   font-family: "Work Sans", sans-serif;
   letter-spacing: 3px;
+  text-decoration: none;
+  color: rgb(31, 31, 31);
 }
 
 .nextPage:hover {
-  opacity: 0.6;
-  background-color: red;
+  background-color: #ffffff2d;
 }

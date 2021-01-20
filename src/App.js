@@ -4,6 +4,8 @@ import HomePage from './pages/HomePage'
 import  CardInner  from './Components/CardInner';
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
 
+import OpeningInfo from './pages/OpeningInfo';
+
 class App extends Component {
   
 
@@ -14,8 +16,12 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Route path="/" component={HomePage} />
+        <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/OpeningInfo" component={OpeningInfo} />
+        </Switch>
       </Router>
+      
     );
   }
 }
