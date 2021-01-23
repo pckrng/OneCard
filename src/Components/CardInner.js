@@ -25,9 +25,12 @@ function CardInner(){
         
         <div ref={el => {introText = el}}
         className="Tilt-inner">  
-            <h1>OneCard</h1>
-            <p>A Theme created with react.js and tilt.js </p>
-            <Link to="/OpeningInfo" className="nextPage">CLICK ME!</Link>
+            <h1>JOSEPH.</h1>
+            <h2 style={{color: 'rgb(175, 92, 92)'}}>Front-end Developer</h2>
+            <p>a Self taught front-end developer creating elegant solutions for everyone</p>
+            <Link to={"/OpeningInfo"} style={{textDecoration: 'none'}}>
+            <h2 className="continue">Continue</h2>
+            </Link>
         </div>
         
     );

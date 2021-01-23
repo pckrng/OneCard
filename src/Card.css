@@ -3,46 +3,74 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  text-align: center;
+  text-align: left;
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
-  box-shadow: 0px 2.2vw 4vw -1vw rgba(0, 0, 0, 0.986);
+}
+
+Link {
+  text-decoration: none;
 }
 
 .Tilt {
   display: flex;
-  align-items: center;
+  padding-left: 4vw;
+  padding-top: 70px;
+  padding-right: 60px;
   border-radius: 16px;
-  justify-content: center;
-  width: 200px;
-  height: 600px;
   background-image: linear-gradient(
     150deg,
-    #9897c2 0%,
-    #8184b6 25%,
-    #8c9eb4 50%,
-    #a2bbc0 75%,
-    #a0f2f2 100%
+    #7a7a7a5b 0%,
+    #9b9b9b59 25%,
+    #8c9eb40c 50%,
+    #a2bbc002 75%,
+    #88888848 100%
   );
   transform-style: preserve-3d;
   position: relative;
   z-index: 100;
   -webkit-box-shadow: 12px 8px 22px 2px rgba(0, 0, 0, 0.322) !important; 
   box-shadow: 12px 8px 22px 2px rgba(0, 0, 0, 0.322) !important;
-  
+  margin-left:2rem;
+  width: 50vw;
+  height: 50vh;
+}
+.Tilt2 {
+  display: flex;
+  padding-left: 4vw;
+  padding-top: 70px;
+  padding-right: 60px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+    150deg,
+    #7a7a7a5b 0%,
+    #9b9b9b59 25%,
+    #8c9eb40c 50%,
+    #a2bbc002 75%,
+    #88888848 100%
+  );
+  transform-style: preserve-3d;
+  position: relative;
+  z-index: 100;
+  -webkit-box-shadow: 12px 8px 22px 2px rgba(0, 0, 0, 0.322) !important; 
+  box-shadow: 12px 8px 22px 2px rgba(0, 0, 0, 0.322) !important;
+  margin-left:2rem;
+  height: 30vh;
+  width: auto;
 }
 
 .Tilt-inner {
   transform: translateZ(100px);
-  font-size: 30px;
+  font-size: 4vw;
   font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
   opacity: 0;
 }
 
 .Tilt-inner p {
-  font-size: 20px;
+  font-size: 1rem;
+  width: 75%;
   margin-bottom: 2rem;
 }
 
@@ -50,7 +78,7 @@
   cursor: pointer;
   background-color: #e7e8e95e;
   width: auto;
-  text-align: center;
+  text-align: left;
   margin-left: 3rem;
   margin-right: 3rem;
   border-radius: 16px;
@@ -63,4 +91,21 @@
 
 .nextPage:hover {
   background-color: #ffffff2d;
+}
+
+.Tilt-inner:hover {
+  cursor: pointer;
+}
+
+h2.continue {
+  color: rgb(107, 107, 107);
+  
+}
+h2.continue:hover {
+  color: rgb(175, 92, 92);
+  
+}
+
+h2 {
+  color: #3f3f3f;
 }

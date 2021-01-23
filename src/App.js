@@ -15,13 +15,17 @@ class App extends Component {
   
   render() {
     return (
+      <>
+      <p>This site works best on desktop!
+      </p>
+      <p>Made with React</p>
       <Router>
         <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/OpeningInfo" component={OpeningInfo} />
         </Switch>
       </Router>
-      
+      </>
     );
   }
 }

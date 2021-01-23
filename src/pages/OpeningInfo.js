@@ -12,8 +12,14 @@ onMouseLeave(e) {
 render() {
     return (
     <div className="App">
-        <Tilt className="Tilt" style={{ height: 600, width: 400, maxGlare: 5 }} onMouseLeave={this.onMouseLeave}>
-            <CardInnerTwo />
+        <Tilt className="Tilt2"  onMouseLeave={this.onMouseLeave}>
+            
+        </Tilt>
+        <Tilt className="Tilt2"  onMouseLeave={this.onMouseLeave}>
+            
+        </Tilt>
+        <Tilt className="Tilt2" onMouseLeave={this.onMouseLeave}>
+            
         </Tilt>
     </div>
     );
